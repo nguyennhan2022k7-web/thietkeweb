@@ -1,0 +1,37 @@
+/*viết mã nguồn CSS*/
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14pt;
+    line-height:1.5;
+}
+
+div.container{
+    margin:10px 100px 0px;
+    background-color:LightGray;
+    padding:20px;
+}
+
+h3.tieude{
+    font-size:18px;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+
+img{
+    width:100%;
+    max-width:200px;
+    border-radius:100%;
+}
+
+table#bang1{
+    border:1px solid black;
+}
+
+table#bang2, table#bang2 th, table#bang2 td, table#bang2 tr{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:5px;
+}
